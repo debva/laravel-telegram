@@ -1,0 +1,30 @@
+{
+    "name": "debva/laravel-telegram",
+    "description": "Laravel Telegram",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Debva\\LaravelTelegram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wildhandb",
+            "email": "wildhan.db@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Debva\\LaravelTelegram\\TelegramServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
