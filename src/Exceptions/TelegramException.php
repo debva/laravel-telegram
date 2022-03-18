@@ -5,8 +5,8 @@ namespace Debva\LaravelTelegram\Exceptions;
 
 class TelegramException extends \Exception
 {
-    public static function tokenUndefined(): TelegramException
+    public static function tokenNotSet(): TelegramException
     {
-        return new self("Telegram token is not defined.");
+        return new self("Token not set.");
     }
 }
